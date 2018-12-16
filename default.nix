@@ -1,10 +1,7 @@
 { nixpkgs ? <nixpkgs>
 , system ? builtins.currentSystem
 }:
-
-let
-  makeTest = import "${nixpkgs}/nixos/tests/make-test.nix";
-
+let pkgs = import nixpkgs { inherit system; };
 in {
-  test = makeTest (import ./test.nix) { inherit system; };
+  test = pkgs.nixosTest ./test.nix;
 }
