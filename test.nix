@@ -56,7 +56,7 @@
   testScript = ''
     startAll;
     $server->waitForUnit("multi-user.target");
-    $server->succeed("[ -z \"\$(curl --fail localhost)\" ]");
+    $server->succeed('[ -z "$(curl --fail localhost)" ]');
     $server->succeed("curl --fail -F text=testpost localhost | grep Thanks");
     $server->succeed("curl --fail localhost | grep testpost");
   '';
