@@ -1,0 +1,2127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="jquery.min.js"></script><script type="text/javascript" src="jquery-ui.min.js"></script><script type="text/javascript" src="treebits.js"></script><link rel="stylesheet" href="logfile.css" type="text/css">
+<title>Log File</title>
+</head>
+<body>
+<h1>VM build log</h1>
+<p><a href="javascript:" class="logTreeExpandAll">Expand all</a> |
+          <a href="javascript:" class="logTreeCollapseAll">Collapse all</a></p>
+<ul class="toplevel">
+<li><code>starting VDE switch for network 1</code></li>
+<li>
+<a href="javascript:" class="logTreeToggle">-</a> <code>running the VM test script</code><ul class="nesting" style="">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code>starting all VMs</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>starting vm</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Formatting '/build/vm-state-server/server.qcow2', fmt=qcow2 size=536870912 cluster_size=65536 lazy_refcounts=off refcount_bits=16</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>QEMU running (pid 597)</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.41 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>waiting for unit ‘multi-user.target’</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>waiting for the VM to finish booting</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>c[?7l[2J[0mSeaBIOS (version rel-1.12.0-0-ga698c8995f-prebuilt.qemu.org)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>iPXE (http://ipxe.org) 00:03.0 C980 PCI2.10 PnP PMM+17F90F70+17EF0F70 C980</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               </code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>iPXE (http://ipxe.org) 00:08.0 CA80 PCI2.10 PnP PMM 17F90F70 17EF0F70 CA80</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Press Ctrl-B to configure iPXE (PCI 00:08.0)...                                                                               </code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Booting from ROM...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Probing EDD (edd=off to disable)... ok</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>c[?7l[2J[    0.000000] Linux version 4.19.57 (nixbld@localhost) (gcc version 7.4.0 (GCC)) #1-NixOS SMP Wed Jul 3 11:14:50 UTC 2019</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] Command line: loglevel=7 console=ttyS0 panic=1 boot.panic_on_fail init=/nix/store/4dhwj27hf5ycrrgsd7bag0iqddizpddy-nixos-system-server-19.03.173068.9ec7625cee5/init regInfo=/nix/store/dncy31aqrw7sh549idzr2b1b43b07x49-closure-info/registration console=ttyS0 </code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] x86/fpu: x87 FPU will use FXSAVE</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] BIOS-provided physical RAM map:</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000017fdbfff] usable</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] BIOS-e820: [mem 0x0000000017fdc000-0x0000000017ffffff] reserved</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] NX (Execute Disable) protection: active</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] SMBIOS 2.8 present.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.12.0-0-ga698c8995f-prebuilt.qemu.org 04/01/2014</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] Hypervisor detected: KVM</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] kvm-clock: cpu 0, msr 8952001, primary cpu clock</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000000] kvm-clock: using sched offset of 1796221481 cycles</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000003] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.000006] tsc: Detected 2808.000 MHz processor</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.001818] last_pfn = 0x17fdc max_arch_pfn = 0x400000000</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.001897] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- UC  </code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006668] found SMP MP-table at [mem 0x000f5870-0x000f587f]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006686] Scanning 1 areas for low memory corruption</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006877] RAMDISK: [mem 0x1766b000-0x17fcffff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006908] ACPI: Early table checksum verification disabled</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006964] ACPI: RSDP 0x00000000000F5680 000014 (v00 BOCHS )</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006968] ACPI: RSDT 0x0000000017FE156F 000030 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006974] ACPI: FACP 0x0000000017FE144B 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006982] ACPI: DSDT 0x0000000017FE0040 00140B (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006986] ACPI: FACS 0x0000000017FE0000 000040</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006989] ACPI: APIC 0x0000000017FE14BF 000078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.006994] ACPI: HPET 0x0000000017FE1537 000038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007583] No NUMA configuration found</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007585] Faking a node at [mem 0x0000000000000000-0x0000000017fdbfff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007589] NODE_DATA(0) allocated [mem 0x17fd8000-0x17fdbfff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007609] Zone ranges:</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007610]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007612]   DMA32    [mem 0x0000000001000000-0x0000000017fdbfff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007614]   Normal   empty</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007616] Movable zone start for each node</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007617] Early memory node ranges</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007618]   node   0: [mem 0x0000000000001000-0x000000000009efff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007620]   node   0: [mem 0x0000000000100000-0x0000000017fdbfff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007754] Reserved but unavailable: 98 pages</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.007756] Initmem setup node 0 [mem 0x0000000000001000-0x0000000017fdbfff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011569] ACPI: PM-Timer IO Port: 0x608</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011585] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011643] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011647] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011649] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011650] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011652] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011653] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011659] Using ACPI (MADT) for SMP configuration information</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011661] ACPI: HPET id: 0x8086a201 base: 0xfed00000</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011670] smpboot: Allowing 1 CPUs, 0 hotplug CPUs</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011689] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011691] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011692] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011694] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011696] [mem 0x18000000-0xfeffbfff] available for PCI devices</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011697] Booting paravirtualized kernel on KVM</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.011700] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.118906] random: get_random_bytes called from start_kernel+0x94/0x4ce with crng_init=0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.118917] setup_percpu: NR_CPUS:384 nr_cpumask_bits:384 nr_cpu_ids:1 nr_node_ids:1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.119116] percpu: Embedded 44 pages/cpu s142424 r8192 d29608 u2097152</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.119150] KVM setup async PF for cpu 0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.119158] kvm-stealtime: cpu 0, msr 16c16180</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.119174] Built 1 zonelists, mobility grouping on.  Total pages: 96613</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.119175] Policy zone: DMA32</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.119177] Kernel command line: loglevel=7 console=ttyS0 panic=1 boot.panic_on_fail init=/nix/store/4dhwj27hf5ycrrgsd7bag0iqddizpddy-nixos-system-server-19.03.173068.9ec7625cee5/init regInfo=/nix/store/dncy31aqrw7sh549idzr2b1b43b07x49-closure-info/registration console=ttyS0 </code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.120264] Memory: 354440K/392680K available (10252K kernel code, 1137K rwdata, 1860K rodata, 1436K init, 812K bss, 38240K reserved, 0K cma-reserved)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.120425] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.120432] Kernel/User page tables isolation: enabled</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.120486] ftrace: allocating 28484 entries in 112 pages</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.132555] rcu: Hierarchical RCU implementation.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.132557] rcu: RCU event tracing is enabled.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.132559] rcu: RCU restricting CPUs from NR_CPUS=384 to nr_cpu_ids=1.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.132560] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.135129] NR_IRQS: 24832, nr_irqs: 256, preallocated irqs: 16</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.144696] Console: colour VGA+ 80x25</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.350388] console [ttyS0] enabled</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.351189] ACPI: Core revision 20180810</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.354825] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.359753] APIC: Switch to symmetric I/O mode setup</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.362942] x2apic enabled</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.365687] Switched APIC routing to physical x2apic.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.369840] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.375049] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2879c5f06f2, max_idle_ns: 440795220049 ns</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.377309] Calibrating delay loop (skipped) preset value.. 5616.00 BogoMIPS (lpj=2808000)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.378304] pid_max: default: 32768 minimum: 301</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.379297] Security Framework initialized</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.379297] Yama: becoming mindful.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.379376] AppArmor: AppArmor initialized</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.380398] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.381297] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.381297] Mount-cache hash table entries: 1024 (order: 1, 8192 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.381297] Mountpoint-cache hash table entries: 1024 (order: 1, 8192 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.381824] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.382303] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.383297] Spectre V2 : Mitigation: Full generic retpoline</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.383303] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.384302] Speculative Store Bypass: Vulnerable</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.385334] MDS: Vulnerable: Clear CPU buffers attempted, no microcode</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.394474] Freeing SMP alternatives memory: 28K</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.397297] APIC calibration not consistent with PM-Timer: 116ms instead of 100ms</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.397297] APIC delta adjusted to PM-Timer: 6252696 (7254235)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.397360] smpboot: CPU0: Intel Common KVM processor (family: 0xf, model: 0x6, stepping: 0x1)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.399413] Performance Events: unsupported Netburst CPU model 6 no PMU driver, software events only.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.400515] rcu: Hierarchical SRCU implementation.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.401738] smp: Bringing up secondary CPUs ...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.402340] smp: Brought up 1 node, 1 CPU</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.404314] smpboot: Max logical packages: 1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.405320] smpboot: Total of 1 processors activated (5616.00 BogoMIPS)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.406710] devtmpfs: initialized</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.407407] x86/mm: Memory block size: 128MB</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.408548] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.409314] futex hash table entries: 256 (order: 2, 16384 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.410360] pinctrl core: initialized pinctrl subsystem</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.411467] NET: Registered protocol family 16</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.412387] audit: initializing netlink subsys (disabled)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.413440] cpuidle: using governor menu</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.414474] ACPI: bus type PCI registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.415346] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.416313] audit: type=2000 audit(1562686608.649:1): state=initialized audit_enabled=0 res=1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.418472] PCI: Using configuration type 1 for base access</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.420429] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.421506] ACPI: Added _OSI(Module Device)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.423308] ACPI: Added _OSI(Processor Device)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.424305] ACPI: Added _OSI(3.0 _SCP Extensions)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.425319] ACPI: Added _OSI(Processor Aggregator Device)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.426382] ACPI: Added _OSI(Linux-Dell-Video)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.427323] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.429454] ACPI: 1 ACPI AML tables successfully acquired and loaded</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.433506] ACPI: Interpreter enabled</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.434318] ACPI: (supports S0 S3 S4 S5)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.435342] ACPI: Using IOAPIC for interrupt routing</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.437321] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.438447] ACPI: Enabled 2 GPEs in block 00 to 0F</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.442824] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.443309] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.444378] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.445447] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.446538] acpiphp: Slot [3] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.447376] acpiphp: Slot [4] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.448373] acpiphp: Slot [5] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.449438] acpiphp: Slot [6] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.450362] acpiphp: Slot [7] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.451357] acpiphp: Slot [8] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.452428] acpiphp: Slot [9] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.453370] acpiphp: Slot [10] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.454509] acpiphp: Slot [11] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.455476] acpiphp: Slot [12] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.456416] acpiphp: Slot [13] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.457386] acpiphp: Slot [14] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.458378] acpiphp: Slot [15] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.459396] acpiphp: Slot [16] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.460378] acpiphp: Slot [17] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.461348] acpiphp: Slot [18] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.462370] acpiphp: Slot [19] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.463374] acpiphp: Slot [20] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.464601] acpiphp: Slot [21] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.465387] acpiphp: Slot [22] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.466373] acpiphp: Slot [23] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.467236] acpiphp: Slot [24] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.467372] acpiphp: Slot [25] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.468363] acpiphp: Slot [26] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.469372] acpiphp: Slot [27] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.470364] acpiphp: Slot [28] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.471382] acpiphp: Slot [29] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.472365] acpiphp: Slot [30] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.473244] acpiphp: Slot [31] registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.473321] PCI host bridge to bus 0000:00</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.474327] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.475319] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.476307] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.477311] pci_bus 0000:00: root bus resource [mem 0x18000000-0xfebfffff window]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.478306] pci_bus 0000:00: root bus resource [mem 0x100000000-0x17fffffff window]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.479311] pci_bus 0000:00: root bus resource [bus 00-ff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.493351] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.494306] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.495309] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.496307] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.510920] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.511323] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.675729] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.677322] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.678554] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.680322] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.681406] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.682540] pci 0000:00:02.0: vgaarb: setting as boot VGA device</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.683297] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.683308] pci 0000:00:02.0: vgaarb: bridge control possible</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.684304] vgaarb: loaded</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.685424] PCI: Using ACPI for IRQ routing</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.686867] NetLabel: Initializing</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.687300] NetLabel:  domain hash size = 128</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.688302] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.690389] NetLabel:  unlabeled traffic allowed by default</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.691522] HPET: 3 timers in total, 0 timers will be used for per-cpu timer</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.692339] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.693303] hpet0: 3 comparators, 64-bit 100.000000 MHz counter</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.697425] clocksource: Switched to clocksource kvm-clock</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.720007] VFS: Disk quotas dquot_6.6.0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.722178] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.728016] AppArmor: AppArmor Filesystem Enabled</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.731671] pnp: PnP ACPI init</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.734097] pnp: PnP ACPI: found 6 devices</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.743017] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.749906] NET: Registered protocol family 2</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.755401] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.760933] TCP established hash table entries: 4096 (order: 3, 32768 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.766740] TCP bind hash table entries: 4096 (order: 4, 65536 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.770840] TCP: Hash tables configured (established 4096 bind 4096)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.778354] UDP hash table entries: 256 (order: 1, 8192 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.781771] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.785554] NET: Registered protocol family 1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.787863] pci 0000:00:01.0: PIIX3: Enabling Passive Release</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.792260] pci 0000:00:00.0: Limiting direct PCI/PCI transfers</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.801382] pci 0000:00:01.0: Activating ISA DMA hang workarounds</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.837499] PCI Interrupt Link [LNKD] enabled at IRQ 11</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.867728] pci 0000:00:01.2: quirk_usb_early_handoff+0x0/0x6b0 took 61844 usecs</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.870241] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    0.873867] Trying to unpack rootfs image as initramfs...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.045478] Freeing initrd memory: 9620K</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.046256] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2879c5f06f2, max_idle_ns: 440795220049 ns</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.048182] Scanning for low memory corruption every 60 seconds</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.049856] Initialise system trusted keyrings</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.051526] workingset: timestamp_bits=40 max_order=17 bucket_order=0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.054761] zbud: loaded</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.056681] Key type asymmetric registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.057564] Asymmetric key parser 'x509' registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.059375] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.061594] io scheduler noop registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.065592] io scheduler deadline registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.066692] io scheduler cfq registered (default)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.067762] io scheduler mq-deadline registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.068692] io scheduler kyber registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.069743] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.106812] 00:05: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.116674] brd: module loaded</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.117581] mce: Using 10 MCE banks</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.118497] sched_clock: Marking stable (883566078, 234889209)-&gt;(1462435982, -343980695)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.120519] registered taskstats version 1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.121453] Loading compiled-in X.509 certificates</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.122566] zswap: loaded using pool lzo/zbud</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.123616] AppArmor: AppArmor sha1 policy hashing enabled</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.129913] Freeing unused kernel image memory: 1436K</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.135097] Write protecting the kernel read-only data: 14336k</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.138016] Freeing unused kernel image memory: 2012K</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.139241] Freeing unused kernel image memory: 188K</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.140866] Run /init as init process</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[1;32m&lt;&lt;&lt; NixOS Stage 1 &gt;&gt;&gt;[0m</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>loading module virtio_balloon...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>loading module virtio_console...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>loading module virtio_rng...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>loading module dm_mod...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.229569] device-mapper: ioctl: 4.39.0-ioctl (2018-04-03) initialised: dm-devel@redhat.com</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>running udev...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.239797] systemd-udevd[90]: starting version 239</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.325298] rtc_cmos 00:00: RTC can wake from S4</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.357463] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.359117] rtc_cmos 00:00: registered as rtc0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.367374] rtc_cmos 00:00: alarms up to one day, y3k, 114 bytes nvram, hpet irqs</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.376695] serio: i8042 KBD port at 0x60,0x64 irq 1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.389337] serio: i8042 AUX port at 0x60,0x64 irq 12</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.431959] SCSI subsystem initialized</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.458104] ACPI: bus type USB registered</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.462365] usbcore: registered new interface driver usbfs</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.463531] usbcore: registered new interface driver hub</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.471256] PCI Interrupt Link [LNKC] enabled at IRQ 10</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.472353] usbcore: registered new device driver usb</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.508577] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.525547] scsi host0: ata_piix</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.535801] uhci_hcd: USB Universal Host Controller Interface driver</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.537826] scsi host1: ata_piix</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.538673] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc180 irq 14</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.540845] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc188 irq 15</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.644032] uhci_hcd 0000:00:01.2: UHCI Host Controller</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.648285] random: fast init done</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.650103] random: crng init done</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.659342] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.662466] uhci_hcd 0000:00:01.2: detected 2 ports</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.670441] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c080</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.676396] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.681835] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.685920] usb usb1: Product: UHCI Host Controller</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.688325] usb usb1: Manufacturer: Linux 4.19.57 uhci_hcd</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.690963] usb usb1: SerialNumber: 0000:00:01.2</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.699651] ata2.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.707418] scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.729679] PCI Interrupt Link [LNKA] enabled at IRQ 10</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.735344] hub 1-0:1.0: USB hub found</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.737190] hub 1-0:1.0: 2 ports detected</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.817511] PCI Interrupt Link [LNKB] enabled at IRQ 11</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    1.951457] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.003053] sr 1:0:0:0: [sr0] scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.005050] cdrom: Uniform CD-ROM driver Revision: 3.20</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.074393] usb 1-1: new full-speed USB device number 2 using uhci_hcd</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.205862] virtio_blk virtio8: [vda] 1048576 512-byte logical blocks (537 MB/512 MiB)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.228642] 9pnet: Installing 9P2000 support</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.245119] usb 1-1: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.248580] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.250497] usb 1-1: Product: QEMU USB Tablet</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.252080] usb 1-1: Manufacturer: QEMU</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.253136] usb 1-1: SerialNumber: 42</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.304064] hidraw: raw HID events driver (C) Jiri Kosina</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.317709] usbcore: registered new interface driver usbhid</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.319087] usbhid: USB HID core driver</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.326704] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input2</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.330202] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>kbd_mode: KDSKBMODE: Inappropriate ioctl for device</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>%Gstarting device mapper and LVM...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.374694] clocksource: Switched to clocksource acpi_pm</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>mke2fs 1.44.5 (15-Dec-2018)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Creating filesystem with 131072 4k blocks and 32768 inodes</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Filesystem UUID: a5a503df-5f6a-44e1-8e28-08291ce0648a</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Superblock backups stored on blocks: </code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>32768, 98304</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Allocating group tables: 0/4   done                            </code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Writing inode tables: 0/4   done                            </code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Creating journal (4096 blocks): done</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>Writing superblocks and filesystem accounting information: 0/4   done</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>checking /dev/vda...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>fsck (busybox 1.30.1)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[fsck.ext4 (1) -- /mnt-root/] fsck.ext4 -a /dev/vda</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>/dev/vda: clean, 11/32768 files, 6353/131072 blocks</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>mounting /dev/vda on /...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.856304] EXT4-fs (vda): mounted filesystem with ordered data mode. Opts: (null)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>mounting store on /nix/.ro-store...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.899495] FS-Cache: Loaded</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.909717] 9p: Installing v9fs 9p2000 file system support</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    2.913411] FS-Cache: Netfs '9p' registered for caching</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>mounting tmpfs on /nix/.rw-store...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>mounting shared on /tmp/shared...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>mounting xchg on /tmp/xchg...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>mounting overlay filesystem on /nix/store...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[1;32m&lt;&lt;&lt; NixOS Stage 2 &gt;&gt;&gt;[0m</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    3.789082] EXT4-fs (vda): re-mounted. Opts: (null)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[    3.797163] booting system configuration /nix/store/4dhwj27hf5ycrrgsd7bag0iqddizpddy-nixos-system-server-19.03.173068.9ec7625cee5</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>running activation script...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>setting up /etc...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>starting systemd...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   12.665673] NET: Registered protocol family 10</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   12.667238] Segment Routing with IPv6</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   12.740825] systemd[1]: systemd 239 running in system mode. (+PAM +AUDIT -SELINUX +IMA +APPARMOR +SMACK -SYSVINIT +UTMP -LIBCRYPTSETUP +GCRYPT -GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID -ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   12.752441] systemd[1]: Detected virtualization kvm.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   12.757013] systemd[1]: Detected architecture x86-64.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   12.769319] systemd[1]: Set hostname to &lt;server&gt;.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   12.772195] systemd[1]: Initializing machine ID from random generator.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   13.164037] systemd-fstab-generator[424]: Checking was requested for "store", but it is not a device.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   13.171165] systemd-fstab-generator[424]: Checking was requested for "shared", but it is not a device.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   13.173408] systemd-fstab-generator[424]: Checking was requested for "xchg", but it is not a device.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   14.093453] systemd[1]: Reached target Remote File Systems.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   14.097006] systemd[1]: Listening on Journal Socket (/dev/log).</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   14.103783] systemd[1]: Created slice PHP FastCGI Process manager pools slice.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   14.109460] systemd[1]: Listening on udev Control Socket.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   14.118296] systemd[1]: Listening on Journal Socket.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   14.569961] loop: module loaded</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   14.597155] EXT4-fs (vda): re-mounted. Opts: (null)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.307482] audit: type=1325 audit(1562686624.931:2): table=filter family=10 entries=13</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.363104] audit: type=1325 audit(1562686624.988:3): table=filter family=2 entries=14</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.381984] audit: type=1300 audit(1562686624.988:3): arch=c000003e syscall=54 success=yes exit=0 a0=4 a1=0 a2=40 a3=17c9cf0 items=0 ppid=441 pid=488 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="iptables" exe="/nix/store/xhwid0xkxmcas7597h50h8sf6sr9vcsd-iptables-1.8.2/bin/xtables-legacy-multi" subj==unconfined key=(null)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.445747] audit: type=1327 audit(1562686624.988:3): proctitle=69707461626C6573002D77002D41006E69786F732D66772D6C6F672D726566757365002D6A006E69786F732D66772D726566757365</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.458152] audit: type=1325 audit(1562686625.063:4): table=filter family=10 entries=14</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.468818] audit: type=1300 audit(1562686625.063:4): arch=c000003e syscall=54 success=yes exit=0 a0=4 a1=29 a2=40 a3=185d160 items=0 ppid=441 pid=489 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="ip6tables" exe="/nix/store/xhwid0xkxmcas7597h50h8sf6sr9vcsd-iptables-1.8.2/bin/xtables-legacy-multi" subj==unconfined key=(null)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.507736] audit: type=1327 audit(1562686625.063:4): proctitle=6970367461626C6573002D77002D41006E69786F732D66772D6C6F672D726566757365002D6A006E69786F732D66772D726566757365</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.538748] audit: type=1325 audit(1562686625.148:5): table=filter family=2 entries=15</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.549068] audit: type=1300 audit(1562686625.148:5): arch=c000003e syscall=54 success=yes exit=0 a0=4 a1=0 a2=40 a3=11566d0 items=0 ppid=441 pid=490 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="iptables" exe="/nix/store/xhwid0xkxmcas7597h50h8sf6sr9vcsd-iptables-1.8.2/bin/xtables-legacy-multi" subj==unconfined key=(null)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.589848] audit: type=1327 audit(1562686625.148:5): proctitle=69707461626C6573002D77002D4E006E69786F732D6677</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.858165] systemd[1]: Started Journal Service.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.658560] systemd-modules-load[434]: Inserted module 'loop'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.667582] systemd-modules-load[434]: Failed to find module 'gcov-proc'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   17.680816] systemd[1]: Starting Flush Journal to Persistent Storage...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   18.006257] systemd-journald[436]: Received request to flush runtime journal from PID 1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   18.010924] systemd[1]: Started Flush Journal to Persistent Storage.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   18.042076] systemd[1]: Starting Create Volatile Files and Directories...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   18.177980] systemd[1]: Started Create Volatile Files and Directories.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   18.226207] systemd[1]: Started udev Kernel Device Manager.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.105481] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.111296] ACPI: Power Button [PWRF]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.255367] Linux agpgart interface v0.103</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.415488] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.482458] parport_pc 00:04: reported by Plug and Play ACPI</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.525817] parport0: PC-style at 0x378, irq 7 [PCSPP(,...)]</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.535361] Floppy drive(s): fd0 is 2.88M AMI BIOS</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.555834] FDC 0 is a S82078B</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   19.829119] systemd[1]: Found device /dev/ttyS0.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   20.134021] mousedev: PS/2 mouse device common for all mice</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   20.252773] systemd[1]: Found device Virtio network device.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   20.724349] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   20.887165] [drm] Found bochs VGA, ID 0xb0c0.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   20.891788] [drm] Framebuffer size 16384 kB @ 0xfd000000, mmio @ 0xfebd0000.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.010297] [TTM] Zone  kernel: Available graphics memory: 183862 kiB</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.016279] [TTM] Initializing pool allocator</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.034134] [TTM] Initializing DMA pool allocator</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.046067] fbcon: bochsdrmfb (fb0) is primary device</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.083947] Console: switching to colour frame buffer device 128x48</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.164122] bochs-drm 0000:00:02.0: fb0: bochsdrmfb frame buffer device</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   20.899920] systemd[1]: Started Firewall.[   21.173364] [drm] Initialized bochs-drm 1.0.0 20130925 for 0000:00:02.0 on minor 0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.329408] ppdev: user-space parallel port driver</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.619740] systemd[1]: Found device /dev/hvc0.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   21.905201] systemd[1]: Reached target Network (Pre).</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.708653] systemd[   22.945101] kauditd_printk_skb: 86 callbacks suppressed</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.945102] audit: type=1130 audit(1562686630.567:38): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-udev-settle comm="systemd" exe="/nix/store/b3n6imx9a3dr6ajbkdl2qidshcllssl1-systemd-239.20190219/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[1]: Started udev Wait for Complete Device Initialization.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.782242] systemd[   23.044239] audit: type=1130 audit(1562686630.597:39): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=backdoor comm="systemd" exe="/nix/store/b3n6imx9a3dr6ajbkdl2qidshcllssl1-systemd-239.20190219/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[1]: Reached target System Initialization.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.893393] systemd[1]: Started Daily Cleanup of Temporary Directories.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.936271] systemd[1]: Reached target Timers.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.947975] systemd[1]: Listening on Nix Daemon Socket.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.951524] m7vy9cifpqd1r6q00l8p8jawfxmj74vz-unit-script-network-link-eth1-start[578]: Configuring link...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.955243] systemd[1]: Listening on D-Bus System Message Bus Socket.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   22.961588] systemd[1]: Reached target Sockets.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.018929] systemd[1]: Reached target Basic System.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.024724] systemd[1]: Started backdoor.service.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.050203] systemd[1]: Starting Kernel Auditing...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.086674] systemd[1]: Starting Address configuration of eth1...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.144571] systemd[1]: Starting Link configuration of eth1...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.178699] systemd[1]: Starting Name Service Cache Daemon...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.189181] systemd[1]: Starting DHCP Client...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.206389] i6b7px75basix1hnbgsyai3jwicsijr6-audit-disable[576]: No rules</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.506114] audit: type=1305 audit(1562686631.131:40): audit_enabled=0 old=1 auid=4294967295 ses=4294967295 subj==unconfined res=1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.301927] dhcpcd[580]: dev: loaded udev</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.347370] systemd[1]: Started Kernel Auditing.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.364139] xgfrafa8b01f4gm904s6m96wp4bys0ki-unit-script-network-addresses-eth1-start[577]: adding address 192.168.1.1/24... done</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.449927] m7vy9cifpqd1r6q00l8p8jawfxmj74vz-unit-script-network-link-eth1-start[578]: bringing up interface... done[   23.712059] 8021q: 802.1Q VLAN Support v1.8</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span></code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.721901] 8021q: adding VLAN 0 to HW filter on device eth1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.512120] systemd[1]: Started Link configuration of eth1.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.526078] nscd[599]: 599 monitoring file `/etc/passwd` (1)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.553597] systemd[1]: Reached target All Network Interfaces (deprecated).</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.567087] nscd[599]: 599 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.581613] systemd[1]: Started Address configuration of eth1.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.594709] nscd[599]: 599 monitoring file `/etc/group` (3)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.605726] systemd[1]: Starting Networking Setup...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.633063] nscd[599]: 599 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.642837] nscd[599]: 599 monitoring file `/etc/hosts` (4)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.654755] nscd[599]: 599 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.665418] nscd[599]: 599 monitoring file `/etc/resolv.conf` (5)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.671559] nscd[599]: 599 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.688350] nscd[599]: 599 monitoring file `/etc/services` (6)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.701504] nscd[599]: 599 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.703316] nscd[599]: 599 disabled inotify-based monitoring for file `/etc/netgroup': No such file or directory</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   23.748147] nscd[599]: 599 stat failed for file `/etc/netgroup'; will try again later: No such file or directory</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   24.232466] cfg80211: Loading compiled-in X.509 certificates for regulatory database</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   24.031027] systemd[1]: Started D-Bus System Message Bus.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   24.067295] systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   24.440350] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   24.465502] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   24.475409] cfg80211: failed to load regulatory.db</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   24.539229] dbus-daemon[610]: dbus[610]: Unknown username "systemd-timesync" in message bus configuration file</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>connecting to host...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>connected to guest root shell</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>(connecting took 27.39 seconds)</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(27.40 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>sh: cannot set terminal process group (-1): Inappropriate ioctl for device</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   24.977266] systemd[1]: Started Networking Setup.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>sh: no job control in this shell</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.019360] systemd[1]: Starting Extra networking commands....</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.067648] systemd[1]: Started Extra networking commands..</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.118596] systemd[1]: Started Name Service Cache Daemon.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.122207] systemd[1]: Reached target Host and Network Name Lookups.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.140211] systemd[1]: Reached target User and Group Name Lookups.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.147094] systemd[1]: Starting Login Service...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.053218] 8021q: adding VLAN 0 to HW filter on device eth0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.845530] dhcpcd[580]: eth0: waiting for carrier</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.848010] dhcpcd[580]: eth0: carrier acquired</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.955788] dhcpcd[580]: DUID 00:01:00:01:24:b7:71:29:52:54:00:12:34:56</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.961564] dhcpcd[580]: eth0: IAID 00:12:34:56</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   25.967264] dhcpcd[580]: eth0: adding address fe80::5054:ff:fe12:3456</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.194828] dhcpcd[580]: eth0: soliciting an IPv6 router</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.431482] systemd-logind[684]: New seat seat0.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.469980] systemd-logind[684]: Watching system buttons on /dev/input/event2 (Power Button)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.483127] systemd-logind[684]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.569508] systemd[1]: Started Login Service.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(29.05 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl list-jobs --full 2&gt;&amp;1</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.11 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.982291] NET: Registered protocol family 17</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.771783] dhcpcd[580]: eth0: soliciting a DHCP lease</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.775058] dhcpcd[580]: eth0: offered 10.0.2.15 from 10.0.2.2</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.779270] dhcpcd[580]: eth0: leased 10.0.2.15 for 86400 seconds</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.785085] dhcpcd[580]: eth0: adding route to 10.0.2.0/24</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   26.791259] dhcpcd[580]: eth0: adding default route via 10.0.2.2</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.039457] nscd[599]: 599 monitored file `/etc/resolv.conf` was written to</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.086027] systemd[1]: Stopping Name Service Cache Daemon...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.094225] systemd[1]: Stopped Name Service Cache Daemon.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.111363] systemd[1]: Starting Name Service Cache Daemon...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.260497] nscd[739]: 739 monitoring file `/etc/passwd` (1)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.263086] nscd[739]: 739 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.270310] nscd[739]: 739 monitoring file `/etc/group` (3)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.278899] nscd[739]: 739 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.290228] nscd[739]: 739 monitoring file `/etc/hosts` (4)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.308102] nscd[739]: 739 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.318833] nscd[739]: 739 monitoring file `/etc/resolv.conf` (5)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.333368] dhcpcd[580]: Failed to try-reload-or-restart ntpd.service: Unit ntpd.service not found.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.345072] dhcpcd[580]: Failed to try-reload-or-restart openntpd.service: Unit openntpd.service not found.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.366273] dhcpcd[580]: Failed to try-reload-or-restart chronyd.service: Unit chronyd.service not found.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.371030] nscd[739]: 739 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.387405] systemd[1]: Started DHCP Client.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.413887] nscd[739]: 739 monitoring file `/etc/services` (6)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.422123] systemd[1]: Reached target Network.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.456235] nscd[739]: 739 monitoring directory `/etc` (2)</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.468075] systemd[1]: Starting PHP FastCGI Process Manager service for pool golden-book...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.516591] nscd[739]: 739 disabled inotify-based monitoring for file `/etc/netgroup': No such file or directory</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.569060] systemd[1]: Starting Permit User Sessions...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.589115] nscd[739]: 739 stat failed for file `/etc/netgroup'; will try again later: No such file or directory</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.598719] systemd[1]: Reached target Network is Online.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.605813] dhcpcd[580]: forked to background, child pid 751</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.615804] systemd[1]: Starting Nginx Web Server...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.634666] dhcpcd[751]: eth0: Router Advertisement from fe80::2</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.636862] systemd[1]: Starting MySQL Server...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.664268] dhcpcd[751]: eth0: adding address fec0::5054:ff:fe12:3456/64</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.670019] systemd[1]: Started Name Service Cache Daemon.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.683798] dhcpcd[751]: eth0: adding route to fec0::/64</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.709804] dhcpcd[751]: eth0: adding default route via fe80::2</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.721464] systemd[1]: Started Permit User Sessions.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.741600] systemd[1]: Started Getty on tty1.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   27.761248] systemd[1]: Reached target Login Prompts.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.33 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl list-jobs --full 2&gt;&amp;1</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.17 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   29.065551] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: Installing MariaDB/MySQL system tables in '/var/lib/mysql' ...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.17 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl list-jobs --full 2&gt;&amp;1</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.14 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   29.889912] 5nxwx6567s47v57j0g2v9qrz0fr56c8a-unit-script-nginx-pre-start[754]: nginx: the configuration file /nix/store/xmhyqa8ij32lcvdr8hy1aklyfdhwjhdq-nginx.conf syntax is ok</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   29.901217] 5nxwx6567s47v57j0g2v9qrz0fr56c8a-unit-script-nginx-pre-start[754]: nginx: configuration file /nix/store/xmhyqa8ij32lcvdr8hy1aklyfdhwjhdq-nginx.conf test is successful</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   29.955801] systemd[1]: Started Nginx Web Server.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.17 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl list-jobs --full 2&gt;&amp;1</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.20 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   30.960041] php-fpm[765]: [NOTICE] fpm is running, pid 765</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   30.993929] php-fpm[765]: [NOTICE] ready to handle connections</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   31.010293] systemd[1]: Started PHP FastCGI Process Manager service for pool golden-book.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   31.013347] php-fpm[765]: [NOTICE] systemd monitor interval set to 10000ms</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   31.018397] systemd[1]: Reached target PHP FastCGI Process manager pools target.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.16 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl list-jobs --full 2&gt;&amp;1</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.11 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.13 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl list-jobs --full 2&gt;&amp;1</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.13 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.12 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl list-jobs --full 2&gt;&amp;1</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.08 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.908007] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: OK</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.911502] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: To start mysqld at boot time you have to copy</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.916827] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: support-files/mysql.server to the right place for your system</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.920753] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: PLEASE REMEMBER TO SET A PASSWORD FOR THE MariaDB root USER !</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.923928] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: To do so, start the server, then issue the following commands:</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.924350] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: '/nix/store/34c7imhfn8q1vwryzkdgl4gmkjirj6x4-mariadb-10.2.17/bin/mysqladmin' -u root password 'new-password'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.924941] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: '/nix/store/34c7imhfn8q1vwryzkdgl4gmkjirj6x4-mariadb-10.2.17/bin/mysqladmin' -u root -h server password 'new-password'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.925185] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: Alternatively you can run:</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.925488] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: '/nix/store/34c7imhfn8q1vwryzkdgl4gmkjirj6x4-mariadb-10.2.17/bin/mysql_secure_installation'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.937958] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: which will also give you the option of removing the test</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.938199] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: databases and anonymous user created by default.  This is</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.938410] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: strongly recommended for production servers.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.938741] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: See the MariaDB Knowledgebase at http://mariadb.com/kb or the</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.939082] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: MySQL manual for more instructions.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.939407] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: You can start the MariaDB daemon with:</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.940068] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: cd '/nix/store/34c7imhfn8q1vwryzkdgl4gmkjirj6x4-mariadb-10.2.17' ; /nix/store/34c7imhfn8q1vwryzkdgl4gmkjirj6x4-mariadb-10.2.17/bin/mysqld_safe --datadir='/var/lib/mysql'</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.940551] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: You can test the MariaDB daemon with mysql-test-run.pl</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.941057] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: cd '/nix/store/34c7imhfn8q1vwryzkdgl4gmkjirj6x4-mariadb-10.2.17/mysql-test' ; perl mysql-test-run.pl</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.941388] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: Please report any problems at http://mariadb.org/jira</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   34.941793] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: The latest information about MariaDB is available at http://mariadb.org/.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.001804] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: You can find additional information about the MySQL part at:</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.009149] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: http://dev.mysql.com</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.015275] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: Consider joining MariaDB's strong and vibrant community:</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.035624] f2fn11kqi65kwkr4yh2vfc77m7sg2s1j-unit-script-mysql-pre-start[755]: https://mariadb.org/get-involved/</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.340469] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] /nix/store/34c7imhfn8q1vwryzkdgl4gmkjirj6x4-mariadb-10.2.17/bin/mysqld (mysqld 10.2.17-MariaDB) starting as process 870 ...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.371189] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.375043] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Uses event mutexes</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.380260] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Compressed tables use zlib 1.2.11</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.401984] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Using Linux native AIO</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.409153] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Number of pools: 1</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.418285] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Using generic crc32 instructions</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.432350] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.443224] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Completed initialization of buffer pool</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.455016] mysqld[870]: 2019-07-09 15:37:23 139926977668864 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.463186] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Highest supported file format is Barracuda.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.478928] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: 128 out of 128 rollback segments are active.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.491406] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Creating shared tablespace for temporary tables</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.496525] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.504696] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: File './ibtmp1' size is now 12 MB.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.510072] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: Waiting for purge to start</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.539668] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] InnoDB: 5.7.23 started; log sequence number 1619987</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.559029] mysqld[870]: 2019-07-09 15:37:23 139926737774336 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.572665] mysqld[870]: 2019-07-09 15:37:23 139926737774336 [Note] InnoDB: Buffer pool(s) load completed at 190709 15:37:23</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.585346] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] Plugin 'FEEDBACK' is disabled.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.633909] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] Server socket created on IP: '::'.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.694794] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] Reading of all Master_info entries succeded</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.700383] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] Added new Master_info '' to hash table</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.704623] mysqld[870]: 2019-07-09 15:37:23 139927461091392 [Note] /nix/store/34c7imhfn8q1vwryzkdgl4gmkjirj6x4-mariadb-10.2.17/bin/mysqld: ready for connections.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.716376] mysqld[870]: Version: '10.2.17-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   35.772815] j9mm5740lvbraf0blr96zwzlv9mmfrpn-unit-script-mysql-post-start[902]: Creating initial database: goldenbook</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.26 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl list-jobs --full 2&gt;&amp;1</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.16 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: systemctl --no-pager show "multi-user.target"</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   36.655023] systemd[1]: Started MySQL Server.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   36.659297] systemd[1]: Reached target Multi-User System.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>[   36.667559] systemd[1]: Startup finished in 12.169s (kernel) + 24.486s (userspace) = 36.656s.</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.10 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(39.59 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>must succeed: [ -z "$(curl --fail localhost)" ]</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>                                 Dload  Upload   Total   Spent    Left  Speed</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.29 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>must succeed: curl --fail -F text=testpost localhost | grep Thanks</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>                                 Dload  Upload   Total   Spent    Left  Speed</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   168    0    21  100   147    216   1515 --:--:-- --:--:-- --:--:--  1731</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.22 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>must succeed: curl --fail localhost | grep testpost</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>                                 Dload  Upload   Total   Spent    Left  Speed</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code class="serial"><span class="machine">server# </span>  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    10    0    10    0     0    156      0 --:--:-- --:--:-- --:--:--   156</code></span>
+</li>
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.20 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(40.72 seconds)</code></span>
+</li>
+</ul>
+</li>
+<li>
+<a href="javascript:" class="logTreeToggle">+</a> <code>collecting coverage data</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: test -e /sys/kernel/debug/gcov</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 1</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.00 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.01 seconds)</code></span>
+</li>
+</ul>
+</li>
+<li>
+<a href="javascript:" class="logTreeToggle">+</a> <code>syncing</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><a href="javascript:" class="logTreeToggle">+</a> <code><span class="machine">server: </span>running command: sync</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code><span class="machine">server: </span>exit status 0</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.10 seconds)</code></span>
+</li>
+</ul></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.10 seconds)</code></span>
+</li>
+</ul>
+</li>
+<li>
+<a href="javascript:" class="logTreeToggle">+</a> <code>cleaning up</code><ul class="nesting" style="display: none;">
+<li class="line">
+<span class="lineconn"></span><span class="linebody"><code>killing server (pid 597)</code></span>
+</li>
+<li class="lastline">
+<span class="lineconn"></span><span class="linebody"><code>(0.00 seconds)</code></span>
+</li>
+</ul>
+</li>
+</ul>
+</body>
+</html>
