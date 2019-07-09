@@ -1,7 +1,3 @@
-{ nixpkgs ? <nixpkgs>
-, system ? builtins.currentSystem
-}:
-let pkgs = import nixpkgs { inherit system; };
-in {
+{ pkgs ? import <nixpkgs> {} }: {
   test = pkgs.nixosTest ./test.nix;
 }
